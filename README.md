@@ -1,1 +1,176 @@
-# Traveler-Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/Home.css">
+    <title>Erica</title>
+</head>
+<body style="background-color: #222225;">
+    <div class="Bottom">
+        <img class="Bottombg" src="/Media/bottombg.png" />
+
+        <a href="https://www.youtube.com/" target="_blank">
+            <img class="Youtube" src="/Media/youtube.png" />
+        </a>
+
+        <a href="https://www.twitter.com/" target="_blank">
+            <img class="Twitter" src="/Media/Twitter.png" />
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="Instagram" src="/Media/Instagram.png" />
+        </a>
+
+        <a href="/WentTo.html">
+            <p class="WentTo">went to</p>
+        </a>
+
+        <a href="/GoingTo.html">
+        <p class="GoingTo">Going to</p>
+        </a>
+
+        <p class="Erica">Erica.</p>
+    </div>
+
+
+    <div class="Stories">
+        <img class="Mainbg" src="/Media/Home/mainbg.png" />
+        <div class="Main">
+        <p class="TextStories1">Save some dollars in Memphis with the city's top free experiences.</p>
+        <p class="TextStories2">sep 20, 2023</p>
+        <p class="TextStories3">18 of the best free things to do in<br/>Memphis</p>
+        <p class="TextStories4">Activities</p>
+        </div>
+
+        <div class="List">
+        <div class="Article1" ">
+            <div class="DivFlexNone">
+            <img class="sea" src="/Media/Home/sea.png" />
+            </div>
+            <div class="DivFlexAuto">
+            <p class="Destination1">Destination Practicalities</p>
+            <p class="Praguetext">The best time to go to Prague</p>
+            <p class="dateMay">May 15, 2023</p>
+            </div>
+        </div>
+        
+        <div class="Article2">
+            <div class="DivFlexNone">
+            <img class="London" src="/Media/Home/London.png" />
+            </div>
+            <div class="DivFlexAuto">
+            <p class="Activities">Activities</p>
+            <p class="Londontext">13 of the best things to do in London</p>
+            <p class="dateJul">Jul 2, 2023</p>
+            </div>
+        </div>
+
+        <div class="Article3" ">
+            <div class="DivFlexNone">
+            <img class="Memphis" src="/Media/Home/Memphis.png" />
+            </div>
+            <div class="DivFlexAuto">
+            <p class="Destination2">Destination Practicalities</p>
+            <p class="Memphistext">12 things Memphis locals want visitors to know</p>
+            <p class="dateSep">sep 20, 2023</p>
+            </div>
+        </div>
+
+        <div class="Article4">
+            <div class="DivFlexNone">
+            <img class="Lake" src="/Media/Home/Lake.png" />
+            </div>
+            <div class="DivFlexAuto">
+            <p class="Destination3">Destination Practicalities</p>
+            <p class="Portugaltext">14 things Portugal locals want you to<br/>know before you visit</p>
+            <p class="dateFeb">Feb 29, 2023</p>
+            </div>
+        </div>
+
+        </div>
+        <div class="Lighttext"></div>
+        <p class="Text2">Explore our latest stories</p>
+        <p class="Text1">Travel stories and news</p>
+    </div>
+
+
+
+
+    <div class="banner-video">
+        <video class="video" autoplay loop muted>
+          <source src="/Media/Home/campaign.mp4" type="video/mp4">
+        </video>
+        <h1 class="MainSentence">Best in travel 2024</h1>
+    </div>
+
+
+    <div class="Next">
+        <p class="MoscowText">Moscow</p>
+        <img class="Moscow" src="/Media/Home/Moscow.png" />
+        <p class="RomeText">Rome</p>
+        <img class="Rome" src="/Media/Home/Rome.png" />
+        <p class="HongKongText">Hong Kong</p>
+        <img class="Hongkong" src="/Media/Home/HongKong.png" />
+        <div class="Article">
+            <p class="TrendingDestination">🔥 Trending destination</p>
+        </div>
+        <a href="/GoingTo.html">
+        <button class="button-28" role="button">View all destinations</button>
+        </a>
+
+        <div class="MainText">Where to next?</div>
+    </div>
+
+
+    <div class="About">
+        <div class="Rectangle5"></div>
+        <div class="Rectangle6"></div>
+        <p class="Text7">About Us</p>
+        <p class="Text6">Mission</p>
+        <p class="Text5">Educating people about cultures and peoples and clarifying the misconceptions spread on social media about different countries and peoples.</p>
+        <p class="Text4">Learn and Teach about all cultures and People in the world</p>
+        <p class="Text3">Vision</p>
+        <p class="Text2">Welcome to Erica Travels</p>
+        <p class="Text1">Erica loves to travel the world. Her goal is to learn about different cultures. She visits faraway places to try new foods, meet new people, and listen to their stories. Erica wants to learn everything she can about the world and its people.</p>
+        <img class="TravelPack" src="/Media/Home/travel_pack.png" />
+        <img class="Beach" src="/Media/Home/beach.png" />
+    </div>
+
+
+    <div class="Gallery">
+        <img class="Galary04" src="/Media/Home/Galary04.png">
+        <img class="Galary03" src="/Media/Home/Galary03.png" />
+        <img class="Galary02" src="/Media/Home/Galary02.png" />
+        <img class="Galary01" src="/Media/Home/Galary01.png" />
+        <h1 class="FromTheBlog">FROM THE BLOG</h1>
+
+        <a href="/WentTo.html">
+        <button class="button-27" role="button">View More</button>
+        </a>
+
+    </div>
+
+
+    <div class="Header">
+        <div class="Bg"></div>
+        <h4 class="Text2">Check out the top weekly destination</h4>
+        <h1 class="Text1">Travel with us</h1>
+    </div>
+
+
+    <div class="Navbar">
+        <p class="Rectangle"></p>
+        <a href="/WentTo.html">
+            <p class="Text4">went to</p>
+        </a>
+        
+        <a href="/GoingTo.html">
+        <p class="Text3">Going to</p>
+        </a>
+        <h4 class="Text1">Erica.</h4>
+    </div>
+</body>
+</html>
+
+<!-- programed by Jawad Alarman -->

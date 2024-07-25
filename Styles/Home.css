@@ -1,0 +1,1103 @@
+.Navbar {
+    width: 100%; 
+    height: 45px; 
+    left: 0px; 
+    top: 0px; 
+    position: fixed;
+    background-color: #222225;
+
+    .Text1 {
+        position: absolute;
+        top: -40px;
+        left: 236.46px;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        font-family: "Tusker Grotesk 6500 Medium";
+        font-weight: 700;
+        line-height: 25px;
+        word-wrap: break-word;
+    }
+    .Text3 {
+        width: 78px; 
+        height: 20px; 
+        left: 1318px; 
+        top: 14px; 
+        position: absolute;
+        color: white; 
+        font-size: 13px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Text4 {
+        width: 78px; 
+        height: 20px; 
+        left: 1416px; 
+        top: 14px; 
+        position: absolute; 
+        color: white; 
+        font-size: 13px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+
+    .Rectangle {
+        width: 100%; 
+        height: 45px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: #222225; 
+        border-bottom: 2px #404043 solid;
+    }
+}
+
+.Header {
+    width: 100%; 
+    height: 952px; 
+    left: 0px; 
+    top: 63px; 
+    position: absolute;
+
+    .Bg {
+        width: 100%; 
+        height: 952px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: #404043;
+    }
+
+    .Text1 {
+        width: 701px; 
+        height: 201px; 
+        left: 579px; 
+        top: 326px; 
+        position: absolute; 
+        text-align: center; 
+        color: #E3E3E3; 
+        font-size: 160px; 
+        font-family: "Tusker Grotesk 3800 Super"; 
+        font-weight: 800; 
+        text-transform: uppercase; 
+        line-height: 120px; 
+        word-wrap: break-word;
+    }
+    .Text2 {
+        width: 988px; 
+        height: 101px; 
+        left: 436px; 
+        top: 225px; 
+        position: absolute; 
+        text-align: center; 
+        color: #E3E3E3; 
+        font-size: 50px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 36px; 
+        word-wrap: break-word;
+    }
+}
+
+
+.Gallery {
+    width: 1446px; 
+    height: 1029px; 
+    left: 237px; 
+    top: 1256px; 
+    position: absolute;
+
+    .FromTheBlog {
+        position: absolute;
+        left: 597px;
+        top: -880px;
+        text-align: center;
+        color: white;
+        font-size: 36px;
+        font-family: "Tusker Grotesk 6500 Medium";
+        font-weight: 700;
+        line-height: 43.20;
+        word-wrap: break-word;
+    }
+
+
+    .Gallery01 {
+        width: 710px; 
+        height: 391px; 
+        left: 0px; 
+        top: 90px; 
+        position: absolute; 
+        border-radius: 25px;
+    }
+    .Gallery02 {
+        width: 711px; 
+        height: 391px; 
+        left: 735px; 
+        top: 90px; 
+        position: absolute; 
+        border-radius: 25px;
+    }
+    .Gallery03 {
+        width: 710px; 
+        height: 392px; 
+        left: 0px; 
+        top: 507px; 
+        position: absolute; 
+        border-radius: 25px;
+    }
+    .Gallery04 {
+        width: 711px; 
+        height: 392px; 
+        left: 735px; 
+        top: 507px; 
+        position: absolute; 
+        border-radius: 25px;
+    }
+
+    
+    .button-27 {
+    position: absolute;
+    left: 42.5%;
+    top: 83%;
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 15%;
+    will-change: transform;
+    }
+
+    .button-27:disabled {
+    pointer-events: none;
+    }
+
+    .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    }
+
+    .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+    }
+}
+
+
+
+
+.About {
+    width: 1446px; 
+    height: 642px; 
+    left: 237px; 
+    top: 2405px; 
+    position: absolute;
+
+    .TravelPack {
+        width: 723px; 
+        height: 322px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute;
+    }
+    .Beach {
+        width: 723px; 
+        height: 321px; 
+        left: 723px; 
+        top: 321px; 
+        position: absolute;
+    }
+    
+    .Text1 {
+        width: 643px; 
+        height: 72px; 
+        left: 772px; 
+        top: 161px; 
+        position: absolute; 
+        color: #888888; 
+        font-size: 15px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        line-height: 24px; 
+        word-wrap: break-word;
+    }
+    .Text2 {
+        width: 490px; 
+        height: 43px; 
+        left: 772px; 
+        top: 63px; 
+        position: absolute; 
+        color: #212121; 
+        font-size: 36px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 43.20px; 
+        word-wrap: break-word;
+    }
+    .Text3 {
+        width: 62px;
+         height: 25px; 
+        left: 85px; 
+        top: 515px; 
+        position: absolute; 
+        color: #212121; 
+        font-size: 14px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 25px; 
+        letter-spacing: 2px; 
+        word-wrap: break-word;
+    }
+    .Text4 {
+        width: 422px; 
+        height: 19px; 
+        left: 85px; 
+        top: 461px; 
+        position: absolute; 
+        color: #888888; 
+        font-size: 15px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        line-height: 24px; 
+        word-wrap: break-word;
+    }
+    .Text5 {
+        width: 570px; 
+        height: 47px; 
+        left: 85px; 
+        top: 548px; 
+        position: absolute; 
+        color: #888888; 
+        font-size: 15px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        line-height: 24px; 
+        word-wrap: break-word;
+    }
+    .Text6 {
+        width: 96px; 
+        height: 25px; 
+        left: 85px; 
+        top: 423px; 
+        position: absolute; 
+        color: #212121; 
+        font-size: 14px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 25px; 
+        letter-spacing: 2px; 
+        word-wrap: break-word;
+    }
+    .Text7 {
+        width: 180.32px; 
+        height: 43.20px; 
+        left: 70px; 
+        top: 346px; 
+        position: absolute; 
+        color: #212121; 
+        font-size: 36px;
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        text-transform: uppercase; 
+        line-height: 43.20px; 
+        word-wrap: break-word;
+    }
+
+    .Rectangle6 {
+        width: 1446px; 
+        height: 642px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: #D9D9D9; 
+        border-radius: 64px;
+    }
+    .Rectangle5 {
+        width: 1385px; 
+        height: 615px; 
+        left: 30px; 
+        top: 13px; 
+        position: absolute; 
+        background: #D9D9D9; 
+        box-shadow: 141.6999969482422px 141.6999969482422px 141.6999969482422px;
+        border-radius: 64px; 
+        filter: blur(141.70px);
+    }
+}
+
+
+.Next {
+    width: 1462.39px; 
+    height: 553px; 
+    left: 221px; 
+    top: 3286px; 
+    position: absolute;
+
+    .MainText {
+        width: 349px; 
+        height: 58px; 
+        left: 16px; 
+        top: 0px; 
+        position: absolute; 
+        color: white; 
+        font-size: 45px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        line-height: 57.60px; 
+        word-wrap: break-word;
+    }
+
+
+    .button-28 {
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        min-height: 60px;
+        min-width: 0;
+        outline: none;
+        padding: 16px 24px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 20%;
+        will-change: transform;
+        position: absolute;
+        left: 80%;
+    }
+
+    .button-28:disabled {
+        pointer-events: none;
+    }
+
+    .button-28:hover {
+        color: #000000;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+
+    .button-28:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+
+    .Article {
+        width: 213.03px; 
+        height: 26px; 
+        padding-top: 1px; 
+        padding-bottom: 1px; 
+        padding-left: 17px; 
+        padding-right: 16.80px; 
+        left: 36px; 
+        top: 142px; 
+        position: absolute; 
+        background: #FDFBF6; 
+        border-radius: 16px; 
+        border: 1px #121212 solid; 
+        justify-content: center; 
+        align-items: center; 
+        display: inline-flex;
+
+        .TrendingDestination {
+            width: 184.68px; 
+            height: 24px; 
+            color: black; 
+            font-size: 15.88px; 
+            font-family: "Inter"; 
+            font-weight: 600; 
+            line-height: 24px; 
+            word-wrap: break-word;
+        }
+    }
+
+    .Hongkong {
+        width: 444.33px; 
+        height: 385px; 
+        left: 0px; 
+        top: 122px; 
+        position: absolute; 
+        border-radius: 16px;
+    }
+    .HongKongText {
+        width: 193px; 
+        height: 32px; 
+        left: 0px; 
+        top: 521px; 
+        position: absolute; 
+        color: white; 
+        font-size: 24px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 31.20px; 
+        word-wrap: break-word;
+    }
+
+    .Rome {
+        width: 444.33px; 
+        height: 385px; 
+        left: 517px; 
+        top: 122px; 
+        position: absolute; 
+        border-radius: 16px;
+    }
+    .RomeText {
+        width: 104px; 
+        height: 32px; 
+        left: 517px; 
+        top: 521px; 
+        position: absolute; 
+        color: white; 
+        font-size: 24px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 31.20px; 
+        word-wrap: break-word;
+    }
+
+    .Moscow {
+        width: 444px; 
+        height: 385px; 
+        left: 1018px; 
+        top: 122px; 
+        position: absolute; 
+        border-radius: 16px;
+    }
+    .MoscowText {
+        width: 159px; 
+        height: 32px; 
+        left: 1018px; 
+        top: 521px; 
+        position: absolute; 
+        color: white; 
+        font-size: 24px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 31.20px; 
+        word-wrap: break-word;
+    }
+}
+
+
+.video {
+    position: absolute;
+    top: 3920px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 1080px;
+}
+
+.video video {
+position: absolute;
+left: 0%;
+transform: translate(0%, 0%);
+min-width: 100%;
+min-height: 100%;
+display: block;
+outline: none;
+border: none; 
+}
+
+.MainSentence {
+    position: absolute;
+    top: 4200px;
+    left: 21%;
+    color: #ffffff;
+    font-family: "Tusker Grotesk 3600 Semibold";
+    font-size: 200px;
+}
+
+
+
+.Stories {
+    width: 1536px; 
+    height: 948.19px; 
+    left: 205px; 
+    top: 5034px; 
+    position: absolute;
+    
+    .Text1 {
+        width: 246.76px; 
+        height: 24px; 
+        left: 32px; 
+        top: 10px; 
+        position: absolute; 
+        color: #92B0DA; 
+        font-size: 16px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 24px; 
+        letter-spacing: 0.80px; 
+        word-wrap: break-word;
+    }
+
+    .Text2 {
+        width: 739px; 
+        height: 83px; 
+        left: 27px; 
+        top: 20px; 
+        position: absolute; 
+        color: white; 
+        font-size: 58.38px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        line-height: 83.20px; 
+        word-wrap: break-word;
+    }
+
+    .Lighttext {
+        width: 740px; 
+        height: 80px; 
+        left: 16px; 
+        top: 20px; 
+        position: absolute; 
+        background: rgba(255, 255, 255, 0.30); 
+        box-shadow: 102.4000015258789px 102.4000015258789px 102.4000015258789px; 
+        filter: blur(102.40px);
+    }
+
+    .List {
+        padding-bottom: 8.18px; 
+        padding-left: 15.81px; 
+        padding-right: 20px; 
+        left: 941.19px; 
+        top: 196.18px; 
+        position: absolute; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        gap: 16px; 
+        display: inline-flex;
+    
+        .Article1 {
+            align-self: stretch; 
+            height: 120px; 
+            padding-top: 30.93px; 
+            padding-bottom: 30.91px; 
+            padding-left: 17px; 
+            padding-right: 13.19px; 
+            background: #F0F7FC; 
+            border-radius: 8px; 
+            border: 1px #E0EEFA solid; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 27.99px; 
+            display: inline-flex;
+            
+            .DivFlexNone {
+                width: 94.16px; 
+                align-self: stretch;
+                border-radius: 8px;
+                overflow: hidden; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center; 
+                display: inline-flex;
+
+                .sea {
+                    width: 94.16px; 
+                    height: 98.16px; 
+                    position: relative;
+                }
+            }
+
+            .DivFlexAuto {
+                width: 368.66px; 
+                height: 81.19px; 
+                position: relative; 
+                flex-direction: column; 
+                justify-content: flex-start; 
+                align-items: flex-start; 
+                display: flex;
+
+                .Destination1 {
+                    position: absolute;
+                    top: -20px;
+                    width: 222.50px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 14px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    text-transform: uppercase; 
+                    line-height: 19.60px; 
+                    letter-spacing: 0.35px; 
+                    word-wrap: break-word;
+                }
+                .Praguetext {
+                    position: absolute;
+                    top: 10px;
+                    width: 283.39px; 
+                    height: 30px; 
+                    color: #121212; 
+                    font-size: 19.84px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 30px; 
+                    word-wrap: break-word;
+                }
+                .dateMay {
+                    position: absolute;
+                    top: 60px;
+                    width: 161.75px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 13.23px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 19.60px; 
+                    word-wrap: break-word;
+                }
+            }
+        }
+
+        .Article2 {
+            align-self: stretch; 
+            height: 120px; 
+            padding-top: 30.93px; 
+            padding-bottom: 30.91px; 
+            padding-left: 17px; 
+            padding-right: 13.19px; 
+            background: #F0F7FC; 
+            border-radius: 8px; 
+            border: 1px #E0EEFA solid; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 27.99px; 
+            display: inline-flex;
+            
+            .DivFlexNone {
+                width: 94.16px; 
+                height: 98.16px; 
+                border-radius: 8px;
+                overflow: hidden; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center; 
+                display: inline-flex;
+
+                .London {
+                    width: 94.16px; 
+                    height: 98.16px; 
+                    position: relative;
+                }
+            }
+
+            .DivFlexAuto {
+                width: 368.66px; 
+                height: 111.19px; 
+                position: relative; 
+                flex-direction: column; 
+                justify-content: flex-start; 
+                align-items: flex-start; 
+                display: flex;
+
+                .Activities {
+                    position: absolute;
+                    top: -10px;
+                    width: 222.50px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 14px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    text-transform: uppercase; 
+                    line-height: 19.60px; 
+                    letter-spacing: 0.35px; 
+                    word-wrap: break-word;
+                }
+                .Londontext {
+                    position: absolute;
+                    top: 20px;
+                    width: 352.08px; 
+                    height: 60px; 
+                    color: #121212; 
+                    font-size: 19.84px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 30px; 
+                    word-wrap: break-word;
+                }
+                .dateJul {
+                    position: absolute;
+                    top: 75px;
+                    width: 161.75px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 13.23px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 19.60px; 
+                    word-wrap: break-word;
+                }
+            }
+        }
+
+        .Article3 {
+            align-self: stretch; 
+            height: 120px; 
+            padding-top: 30.93px; 
+            padding-bottom: 30.91px; 
+            padding-left: 17px; 
+            padding-right: 13.19px; 
+            background: #F0F7FC; 
+            border-radius: 8px; 
+            border: 1px #E0EEFA solid; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 27.99px; 
+            display: inline-flex;
+            
+            .DivFlexNone {
+                width: 94.16px; 
+                align-self: stretch;
+                border-radius: 8px;
+                overflow: hidden; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center; 
+                display: inline-flex;
+
+                .Memphis {
+                    width: 94.16px; 
+                    height: 98.16px; 
+                    position: relative;
+                }
+            }
+
+            .DivFlexAuto {
+                width: 368.66px; 
+                height: 81.19px; 
+                position: relative; 
+                flex-direction: column; 
+                justify-content: flex-start; 
+                align-items: flex-start; 
+                display: flex;
+
+                .Destination2 {
+                    position: absolute;
+                    top: -25px;
+                    width: 222.50px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 14px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    text-transform: uppercase; 
+                    line-height: 19.60px; 
+                    letter-spacing: 0.35px; 
+                    word-wrap: break-word;
+                }
+                .Memphistext {
+                    width: 283.39px; 
+                    height: 30px; 
+                    color: #121212; 
+                    font-size: 19.84px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 30px; 
+                    word-wrap: break-word;
+                }
+                .dateSep {
+                    width: 161.75px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 13.23px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 19.60px; 
+                    word-wrap: break-word;
+                }
+            }
+        }
+
+        .Article4 {
+            align-self: stretch; 
+            height: 120px; 
+            padding-top: 30.93px; 
+            padding-bottom: 30.91px; 
+            padding-left: 17px; 
+            padding-right: 13.19px; 
+            background: #F0F7FC; 
+            border-radius: 8px; 
+            border: 1px #E0EEFA solid; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 27.99px; 
+            display: inline-flex;
+            
+            .DivFlexNone {
+                width: 94.16px; 
+                height: 98.16px; 
+                border-radius: 8px;
+                overflow: hidden; 
+                flex-direction: column; 
+                justify-content: center; 
+                align-items: center; 
+                display: inline-flex;
+
+                .Lake {
+                    width: 94.16px; 
+                    height: 98.16px; 
+                    position: relative;
+                }
+            }
+
+            .DivFlexAuto {
+                width: 368.66px; 
+                height: 111.19px; 
+                position: relative; 
+                flex-direction: column; 
+                justify-content: flex-start; 
+                align-items: flex-start; 
+                display: flex;
+
+                .Destination3 {
+                    position: absolute;
+                    top: -15px;
+                    width: 222.50px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 14px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    text-transform: uppercase; 
+                    line-height: 19.60px; 
+                    letter-spacing: 0.35px; 
+                    word-wrap: break-word;
+                }
+                .Portugaltext {
+                    position: absolute;
+                    top: 10px;
+                    width: 352.08px; 
+                    height: 60px; 
+                    color: #121212; 
+                    font-size: 19.84px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 30px; 
+                    word-wrap: break-word;
+                }
+                .dateFeb {
+                    position: absolute;
+                    top: 85px;
+                    width: 161.75px; 
+                    height: 19.60px; 
+                    color: #4B4B4B; 
+                    font-size: 13.23px; 
+                    font-family: "Tusker Grotesk 6500 Medium"; 
+                    font-weight: 500; 
+                    line-height: 19.60px; 
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+
+    .Mainbg {
+        width: 883px; 
+        height: 689px; 
+        left: 32px; 
+        top: 195px; 
+        position: absolute;
+    }
+
+    .Main {
+        width: 883.19px; 
+        height: 688px; 
+        left: 32px; 
+        top: 196px; 
+        position: absolute; 
+        background: linear-gradient(0deg, rgba(18, 18, 18, 0.80) 0%, rgba(18, 18, 18, 0.40) 50%, rgba(0, 0, 0, 0) 100%); 
+        border-radius: 15px;
+
+        .TextStories1 {
+            width: 557px; 
+            height: 24px; 
+            left: 32px; 
+            top: 599.82px; 
+            position: absolute; 
+            color: white; 
+            font-size: 15.75px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 24px; 
+            word-wrap: break-word;
+        }
+        .TextStories2 {
+            width: 212px; 
+            height: 24px; 
+            left: 32px; 
+            top: 559.82px; 
+            position: absolute; 
+            color: white; 
+            font-size: 14.75px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 24px; 
+            word-wrap: break-word;
+        }
+        .TextStories3 {
+            width: 518px; 
+            height: 84px; 
+            left: 32px; 
+            top: 466.82px; 
+            position: absolute; 
+            color: white; 
+            font-size: 28.75px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 41.60px; 
+            word-wrap: break-word;
+        }
+        .TextStories4 {
+            width: 98px; 
+            height: 19px; 
+            left: 32px; 
+            top: 439.82px; 
+            position: absolute; 
+            color: white; 
+            font-size: 14px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+            line-height: 19.60px; 
+            letter-spacing: 0.70px; 
+            word-wrap: break-word;
+        }
+    }
+                
+}
+
+
+.Bottom {
+    width: 100%; 
+    height: 706px; 
+    left: 0px; 
+    top: 6063px; 
+    position: absolute;
+
+    .Bottombg {
+        width: 100%; 
+        height: 706px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute;
+    }
+
+    .Youtube {
+        width: 32px; 
+        height: 32px; 
+        left: 1780px; 
+        top: 659px; 
+        position: absolute;
+    }
+    .Twitter {
+        width: 32px; 
+        height: 32px; 
+        left: 1720px; 
+        top: 659px; 
+        position: absolute;
+    }
+    .Instagram {
+        width: 32px; 
+        height: 32px; 
+        left: 1660px; 
+        top: 659px; 
+        position: absolute;
+    }
+
+    .WentTo {
+        width: 147px; 
+        height: 39px; 
+        left: 1050px; 
+        top: 463px; 
+        position: absolute; 
+        color: black; 
+        font-size: 30px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .GoingTo {
+        width: 150px; 
+        height: 34px; 
+        left: 809px; 
+        top: 463px; 
+        position: absolute; 
+        color: black; 
+        font-size: 30px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Erica {
+        width: 213px; 
+        height: 91px; 
+        left: 883px; 
+        top: 230px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 70px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 25px; 
+        word-wrap: break-word;
+    }
+}
+
+/* Designed by Jawad Alarman */

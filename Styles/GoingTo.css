@@ -1,0 +1,963 @@
+.Navbar {
+    width: 100%; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: fixed;
+
+    .Rectangle {
+        width: 100%; 
+        height: 70px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: #222225; 
+        border-bottom: 2px #404043 solid;
+    }
+    
+    .wentto {
+        width: 78px; 
+        height: 20px; 
+        left: 1314px; 
+        top: 28px; 
+        position: absolute; 
+        color: white; 
+        font-size: 13px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Home {
+        width: 40px; 
+        height: 20px; 
+        left: 1249px; 
+        top: 28px; 
+        position: absolute; 
+        color: white; 
+        font-size: 13px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Erica {
+        width: 150px;
+        height: 45px; 
+        left: 376.46px; 
+        top: 24.44px; 
+        position: absolute; 
+        text-align: center; 
+        color: white; 
+        font-size: 45px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 25px; 
+        word-wrap: break-word;
+    }
+
+    .BackButton {
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 25px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 20px;
+        font-weight: 6;
+        line-height: normal;
+        margin: 0;
+        min-height: 50px;
+        min-width: 0;
+        outline: none;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 5.5%;
+        will-change: transform;
+        position: absolute;
+        left: 1%;
+        top: 10px;
+    }
+
+    .BackButton:disabled {
+        pointer-events: none;
+    }
+
+    .BackButton:hover {
+        color: #000000;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+
+    .BackButton:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+}
+
+.Header {
+    width: 100%; 
+    height: 952px; 
+    left: 0px; 
+    top: 72px; 
+    position: absolute;
+
+    .Bg {
+        width: 100%; 
+        height: 952px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: #404043;
+    }
+
+    .MainText {
+        width: 701px; 
+        height: 577px; 
+        left: 609px; 
+        top: 187px; 
+        position: absolute; 
+        text-align: center; 
+        color: #E3E3E3; 
+        font-size: 160px; 
+        font-family: "Tusker Grotesk 3800 Super"; 
+        font-weight: 800; 
+        text-transform: uppercase; 
+        line-height: 96px; 
+        word-wrap: break-word;
+    }
+} 
+
+.Body {
+    width: 1446.33px; 
+    height: 1592px; 
+    left: 237px; 
+    top: 1173px; 
+    position: absolute;
+
+    .bodyText {
+        width: 349px; 
+        height: 58px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        color: white; 
+        font-size: 45px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        line-height: 57.60px; 
+        word-wrap: break-word;
+    }
+
+    .Box01 {
+        width: 444px; 
+        height: 714px; 
+        left: 0px; 
+        top: 125px;
+        position: absolute;
+        border-radius: 16px; 
+        border: 1px white solid;
+        
+        .Hongkong {
+            width: 444px; 
+            height: 385px; 
+            left: 0px; 
+            top: 0px; 
+            position: absolute; 
+        }
+
+        .Numbox1 {
+            width: 32px; 
+            height: 39px; 
+            left: 16px; 
+            top: 399px; 
+            position: absolute;
+            position: absolute; 
+            border-radius: 6px; 
+            border: 1px white solid;
+
+            .num1 {
+                width: 9px; 
+                height: 26px; 
+                left: 11px; 
+                top: -18px; 
+                position: absolute; 
+                color: white; 
+                font-size: 24px; 
+                font-family: "Tusker Grotesk 6500 Medium"; 
+                font-weight: 500; 
+                line-height: 31.20px; 
+                word-wrap: break-word;
+            }
+            .Num1Rectangle {
+                width: 32px; 
+                height: 39px; 
+                left: 0px; 
+                top: 0px; 
+                
+            }
+        }
+        
+        .HongkongText1 {
+            width: 193px; 
+            height: 31px; 
+            left: 16px; 
+            top: 428px; 
+            position: absolute; 
+            color: white; 
+            font-size: 24px; 
+            font-family: "Tusker Grotesk 8700 Bold"; 
+            font-weight: 700; 
+            line-height: 31.20px; 
+            word-wrap: break-word;
+        }
+
+        .HongkongText2 {
+            width: 399px; 
+            height: 97px; 
+            left: 16px; 
+            top: 500px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 26px; 
+            word-wrap: break-word;
+        }
+
+        .box1Button {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 25px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 200px;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 5.5%;
+            will-change: transform;
+            position: absolute;
+            left: 11px;
+            top: 645px;
+        }
+    
+        .box1Button:disabled {
+            pointer-events: none;
+        }
+    
+        .box1Button:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .box1Button:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+    }
+
+
+    .Box02 {
+        width: 444px; 
+        height: 714px; 
+        left: 501px; 
+        top: 125px;
+        position: absolute;
+        border-radius: 16px; 
+        border: 1px white solid;
+        
+        .Macau {
+            width: 100.2%; 
+            height: 385px; 
+            left: 0px;
+            top: 0px; 
+            position: absolute; 
+        }
+
+        .Numbox2 {
+            width: 32px; 
+            height: 39px; 
+            left: 16px; 
+            top: 399px; 
+            position: absolute;
+            position: absolute; 
+            border-radius: 6px; 
+            border: 1px white solid;
+
+            .num2 {
+                width: 9px; 
+                height: 26px; 
+                left: 11px; 
+                top: -18px; 
+                position: absolute; 
+                color: white; 
+                font-size: 24px; 
+                font-family: "Tusker Grotesk 6500 Medium"; 
+                font-weight: 500; 
+                line-height: 31.20px; 
+                word-wrap: break-word;
+            }
+        }
+        
+        .MacauText1 {
+            width: 193px; 
+            height: 31px; 
+            left: 16px; 
+            top: 428px; 
+            position: absolute; 
+            color: white; 
+            font-size: 24px; 
+            font-family: "Tusker Grotesk 8700 Bold"; 
+            font-weight: 700; 
+            line-height: 31.20px; 
+            word-wrap: break-word;
+        }
+
+        .MacauText2 {
+            width: 399px; 
+            height: 97px; 
+            left: 16px; 
+            top: 500px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 26px; 
+            word-wrap: break-word;
+        }
+
+        .box2Button {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 25px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 200px;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 5.5%;
+            will-change: transform;
+            position: absolute;
+            left: 11px;
+            top: 645px;
+        }
+    
+        .box2Button:disabled {
+            pointer-events: none;
+        }
+    
+        .box2Button:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .box2Button:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+    }
+    
+
+    .Box03 {
+        width: 444px; 
+        height: 714px; 
+        left: 1001px; 
+        top: 125px;
+        position: absolute;
+        border-radius: 16px; 
+        border: 1px white solid;
+        
+        .Newzealand {
+            width: 444px; 
+            height: 385px; 
+            left: 0px; 
+            top: 0px; 
+            position: absolute; 
+        }
+
+        .Numbox3 {
+            width: 32px; 
+            height: 39px; 
+            left: 16px; 
+            top: 399px; 
+            position: absolute;
+            position: absolute; 
+            border-radius: 6px; 
+            border: 1px white solid;
+
+            .num3 {
+                width: 9px; 
+                height: 26px; 
+                left: 11px; 
+                top: -18px; 
+                position: absolute; 
+                color: white; 
+                font-size: 24px; 
+                font-family: "Tusker Grotesk 6500 Medium"; 
+                font-weight: 500; 
+                line-height: 31.20px; 
+                word-wrap: break-word;
+            }
+        }
+        
+        .NewzealandText1 {
+            width: 193px; 
+            height: 31px; 
+            left: 16px; 
+            top: 428px; 
+            position: absolute; 
+            color: white; 
+            font-size: 24px; 
+            font-family: "Tusker Grotesk 8700 Bold"; 
+            font-weight: 700; 
+            line-height: 31.20px; 
+            word-wrap: break-word;
+        }
+
+        .NewzealandText2 {
+            width: 399px; 
+            height: 97px; 
+            left: 16px; 
+            top: 500px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 26px; 
+            word-wrap: break-word;
+        }
+
+        .box3Button {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 25px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 200px;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 5.5%;
+            will-change: transform;
+            position: absolute;
+            left: 11px;
+            top: 645px;
+        }
+    
+        .box3Button:disabled {
+            pointer-events: none;
+        }
+    
+        .box3Button:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .box3Button:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+    }
+
+
+    .Box04 {
+        width: 444px; 
+        height: 714px; 
+        left: 0px; 
+        top: 932px;
+        position: absolute;
+        border-radius: 16px; 
+        border: 1px white solid;
+        
+        .Rome {
+            width: 444px; 
+            height: 385px; 
+            left: 0px; 
+            top: 0px; 
+            position: absolute; 
+        }
+
+        .Numbox4 {
+            width: 32px; 
+            height: 39px; 
+            left: 16px; 
+            top: 399px; 
+            position: absolute;
+            position: absolute; 
+            border-radius: 6px; 
+            border: 1px white solid;
+
+            .num4 {
+                width: 9px; 
+                height: 26px; 
+                left: 11px; 
+                top: -18px; 
+                position: absolute; 
+                color: white; 
+                font-size: 24px; 
+                font-family: "Tusker Grotesk 6500 Medium"; 
+                font-weight: 500; 
+                line-height: 31.20px; 
+                word-wrap: break-word;
+            }
+        }
+        
+        .RomeText1 {
+            width: 193px; 
+            height: 31px; 
+            left: 16px; 
+            top: 428px; 
+            position: absolute; 
+            color: white; 
+            font-size: 24px; 
+            font-family: "Tusker Grotesk 8700 Bold"; 
+            font-weight: 700; 
+            line-height: 31.20px; 
+            word-wrap: break-word;
+        }
+
+        .RomeText2 {
+            width: 399px; 
+            height: 97px; 
+            left: 16px; 
+            top: 500px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 26px; 
+            word-wrap: break-word;
+        }
+
+        .box4Button {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 25px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 200px;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 5.5%;
+            will-change: transform;
+            position: absolute;
+            left: 11px;
+            top: 645px;
+        }
+    
+        .box4Button:disabled {
+            pointer-events: none;
+        }
+    
+        .box4Button:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .box4Button:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+    }
+
+
+
+    .Box05 {
+        width: 444px; 
+        height: 714px; 
+        left: 501px; 
+        top: 932px;
+        position: absolute;
+        border-radius: 16px; 
+        border: 1px white solid;
+        
+        .Madrid {
+            width: 444px; 
+            height: 385px; 
+            left: 0px; 
+            top: 0px; 
+            position: absolute; 
+        }
+
+        .Numbox5 {
+            width: 32px; 
+            height: 39px;  
+            left: 16px; 
+            top: 399px;
+            position: absolute; 
+            border-radius: 6px; 
+            border: 1px white solid;
+
+            .num5 {
+                width: 9px; 
+                height: 26px; 
+                left: 11px; 
+                top: -18px; 
+                position: absolute; 
+                color: white; 
+                font-size: 24px; 
+                font-family: "Tusker Grotesk 6500 Medium"; 
+                font-weight: 500; 
+                line-height: 31.20px; 
+                word-wrap: break-word;
+            }
+
+        }
+        
+        .MadridText1 {
+            width: 193px; 
+            height: 31px; 
+            left: 16px; 
+            top: 428px; 
+            position: absolute; 
+            color: white; 
+            font-size: 24px; 
+            font-family: "Tusker Grotesk 8700 Bold"; 
+            font-weight: 700; 
+            line-height: 31.20px; 
+            word-wrap: break-word;
+        }
+
+        .MadridText2 {
+            width: 399px; 
+            height: 97px; 
+            left: 16px; 
+            top: 500px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 26px; 
+            word-wrap: break-word;
+        }
+
+        .box5Button {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 25px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 200px;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 5.5%;
+            will-change: transform;
+            position: absolute;
+            left: 11px;
+            top: 645px;
+        }
+    
+        .box5Button:disabled {
+            pointer-events: none;
+        }
+    
+        .box5Button:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .box5Button:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+    }
+
+
+    .Box06 {
+        width: 444px; 
+        height: 714px; 
+        left: 1001px; 
+        top: 932px;
+        position: absolute;
+        border-radius: 16px; 
+        border: 1px white solid;
+        
+        .Moscow {
+            width: 444px; 
+            height: 385px; 
+            left: 0px; 
+            top: 0px; 
+            position: absolute; 
+        }
+
+        .Numbox6 {
+            width: 32px; 
+            height: 39px;
+            left: 11px; 
+            top: 399px; 
+            position: absolute;
+            position: absolute; 
+            border-radius: 6px; 
+            border: 1px white solid;
+
+            .num6 {
+                width: 9px; 
+                height: 26px; 
+                left: 11px; 
+                top: -18px; 
+                position: absolute; 
+                color: white; 
+                font-size: 24px; 
+                font-family: "Tusker Grotesk 6500 Medium"; 
+                font-weight: 500; 
+                line-height: 31.20px; 
+                word-wrap: break-word;
+            }
+        }
+        
+        .MoscowText1 {
+            width: 193px; 
+            height: 31px; 
+            left: 16px; 
+            top: 428px; 
+            position: absolute; 
+            color: white; 
+            font-size: 24px; 
+            font-family: "Tusker Grotesk 8700 Bold"; 
+            font-weight: 700; 
+            line-height: 31.20px; 
+            word-wrap: break-word;
+        }
+
+        .MoscowText2 {
+            width: 399px; 
+            height: 97px; 
+            left: 16px; 
+            top: 500px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Tusker Grotesk 6500 Medium"; 
+            font-weight: 500; 
+            line-height: 26px; 
+            word-wrap: break-word;
+        }
+
+        .box6Button {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 25px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 200px;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 5.5%;
+            will-change: transform;
+            position: absolute;
+            left: 11px;
+            top: 645px;
+        }
+    
+        .box6Button:disabled {
+            pointer-events: none;
+        }
+    
+        .box6Button:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .box6Button:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+    }
+}
+
+.Bottom {
+    width: 100%; 
+    height: 706px; 
+    left: 0px; 
+    top: 2900px; 
+    position: absolute;
+
+    .Bottombg {
+        width: 100%; 
+        height: 706px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute;
+    }
+
+    .Youtube {
+        width: 32px; 
+        height: 32px; 
+        left: 1780px; 
+        top: 659px; 
+        position: absolute;
+    }
+    .Twitter {
+        width: 32px; 
+        height: 32px; 
+        left: 1720px; 
+        top: 659px; 
+        position: absolute;
+    }
+    .Instagram {
+        width: 32px; 
+        height: 32px; 
+        left: 1660px; 
+        top: 659px; 
+        position: absolute;
+    }
+
+    .WentTo {
+        width: 150px; 
+        height: 34px; 
+        left: 1050px; 
+        top: 463px; 
+        position: absolute; 
+        color: black; 
+        font-size: 30px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Home {
+        width: 100px; 
+        height: 43px; 
+        left: 809px; 
+        top: 463px; 
+        position: absolute; 
+        color: black; 
+        font-size: 30px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Erica {
+        width: 213px; 
+        height: 91px; 
+        left: 883px; 
+        top: 230px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 70px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 25px; 
+        word-wrap: break-word;
+    }
+}
+
+/* Designed by Jawad Alarman */

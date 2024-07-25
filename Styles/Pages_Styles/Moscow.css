@@ -1,0 +1,1054 @@
+.Navbar {
+    width: 100%; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: fixed;
+
+    .Rectangle {
+        width: 100%; 
+        height: 70px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: #222225; 
+        border-bottom: 2px #404043 solid;
+    }
+    
+    .wentto {
+        width: 78px; 
+        height: 20px; 
+        left: 1405px; 
+        top: 28px; 
+        position: absolute; 
+        color: white; 
+        font-size: 13px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .goingto {
+        width: 78px; 
+        height: 20px; 
+        left: 1314px; 
+        top: 28px; 
+        position: absolute; 
+        color: white; 
+        font-size: 13px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Home {
+        width: 40px; 
+        height: 20px; 
+        left: 1249px; 
+        top: 28px; 
+        position: absolute; 
+        color: white; 
+        font-size: 13px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Erica {
+        width: 150px;
+        height: 45px; 
+        left: 376.46px; 
+        top: 24.44px; 
+        position: absolute; 
+        text-align: center; 
+        color: white; 
+        font-size: 45px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 25px; 
+        word-wrap: break-word;
+    }
+
+    .BackButton {
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 25px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 20px;
+        font-weight: 6;
+        line-height: normal;
+        margin: 0;
+        min-height: 50px;
+        min-width: 0;
+        outline: none;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 5.5%;
+        will-change: transform;
+        position: absolute;
+        left: 1%;
+        top: 10px;
+    }
+
+    .BackButton:disabled {
+        pointer-events: none;
+    }
+
+    .BackButton:hover {
+        color: #000000;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+
+    .BackButton:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+}
+
+.Header {
+    width: 100%; 
+    height: 875px; 
+    left: 0px; 
+    top: 72px; 
+    position: absolute;
+
+    .MoscowMainText {
+        width: 1351px; 
+        height: 101px; 
+        left: 299px; 
+        top: 382px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 150px; 
+        font-family: "RUSKOF"; 
+        font-weight: 400; 
+        text-transform: uppercase; 
+        line-height: 24px; 
+        word-wrap: break-word;
+        
+    }
+    .Moscow {
+        width: 100%; 
+        height: 875px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute;
+        z-index: -1;
+    }
+    
+}
+
+.Header2 {
+    width: 100%; 
+    height: 402px; 
+    left: 0px; 
+    top: 947px; 
+    position: absolute;
+
+    .Bgtext1 {
+        width: 100%; 
+        height: 402px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute;
+    }
+
+    .Header2Text1 {
+        width: 1161px; 
+        height: 92px; 
+        left: 379px; 
+        top: 53px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 40px; 
+        font-family: "RUSKOF"; 
+        font-weight: 400; 
+        line-height: 46px;
+        word-wrap: break-word;
+    }
+    .Header2Text2 {
+        width: 1213px; 
+        height: 160px; 
+        left: 353px; 
+        top: 176px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 18px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 400; 
+        line-height: 30px; 
+        word-wrap: break-word;
+    }
+}
+
+.CityIdea {
+    width: 1382px; 
+    height: 583px; 
+    left: 273px; 
+    top: 1440px; 
+    position: absolute;
+
+    .Building {
+        width: 632px; 
+        height: 395px; 
+        left: 0px; 
+        top: 121px; 
+        position: absolute; 
+        border-radius: 25px;
+    }
+
+    .CityIdeaText1 {
+        width: 51px; 
+        height: 32px; 
+        left: 809px; 
+        top: 0px; 
+        position: absolute; 
+        color: #D8D8D8; 
+        font-size: 16px; 
+        font-family: "RUSKOF LIGHT"; 
+        font-weight: 400; 
+        text-transform: uppercase; 
+        line-height: 32px; 
+        letter-spacing: 0.50px; 
+        word-wrap: break-word;
+    }
+    .CityIdeaText2 {
+        width: 573px; 
+        height: 92px; 
+        left: 809px; 
+        top: 32px; 
+        position: absolute; 
+        color: white; 
+        font-size: 35px; 
+        font-family: "RUSKOF LIGHT"; 
+        font-weight: 400; 
+        line-height: 46px; 
+        word-wrap: break-word;
+    }
+    .CityIdeaText3 {
+        width: 498px;
+        height: 449px; 
+        left: 809px; 
+        top: 134px; 
+        position: absolute; 
+        color: white; 
+        font-size: 18px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        line-height: 30px; 
+        word-wrap: break-word;
+    }
+}
+
+.Time {
+    width: 1374px; 
+    height: 499px; 
+    left: 273px; 
+    top: 2250px; 
+    position: absolute;
+
+    .TimeText1 {
+        width: 717px; 
+        height: 49px; 
+        left: 322px; 
+        top: 0px; 
+        position: absolute; 
+        color: white; 
+        font-size: 70px; 
+        font-family: "RUSKOF LIGHT"; 
+        font-weight: 400; 
+        line-height: 30px; 
+        word-wrap: break-word;
+    }
+    .TimeText2 {
+        width: 1374px; 
+        height: 399px; 
+        left: 0px; 
+        top: 100px; 
+        position: absolute; 
+        text-align: center; 
+        color: white; 
+        font-size: 30px; 
+        font-family: Arial; 
+        font-weight: 700; 
+        line-height: 40px; 
+        word-wrap: break-word;
+    }
+}
+
+.Wallpaperflare {
+    width: 100%;
+    height: 888px; 
+    left: 0px; 
+    top: 2907px; 
+    position: absolute;
+}
+
+.Travel {
+    width: 1380px; 
+    height: 609px; 
+    left: 265px; 
+    top: 3900px; 
+    position: absolute;
+
+    .Airportimage {
+        width: 545px; 
+        height: 386px; 
+        left: 0px; 
+        top: 172px; 
+        position: absolute;
+    }
+    
+    .TravelText1 {
+        width: 727px; 
+        height: 51px; 
+        left: 273px; 
+        top: 0px; 
+        position: absolute; 
+        color: white; 
+        font-size: 70px; 
+        font-family: "RUSKOF LIGHT"; 
+        font-weight: 400; 
+        line-height: 30px; 
+        word-wrap: break-word;
+    }
+    .TravelText2 {
+        width: 684px; 
+        height: 489px; 
+        left: 696px; 
+        top: 80px;
+        position: absolute; 
+        color: white; 
+        font-size: 25px; 
+        font-family: "Arial"; 
+        font-weight: 700; 
+        line-height: 40px; 
+        word-wrap: break-word;
+    }
+}
+
+.Places {
+    width: 1320px; 
+    height: 1417px; 
+    left: 300px; 
+    top: 4725px; 
+    position: absolute;
+
+    .PlacesText1 {
+        width: 178px; 
+        height: 32px; 
+        left: 577px; 
+        top: 0px; 
+        position: absolute; 
+        text-align: center; 
+        color: white; 
+        font-size: 20px; 
+        font-family: "RUSKOF LIGHT"; 
+        font-weight: 400; 
+        text-transform: uppercase; 
+        line-height: 32px; 
+        letter-spacing: 0.50px;
+        word-wrap: break-word;
+    }
+    .PlacesText2 {
+        width: 432px; 
+        height: 46px; 
+        left: 450px; 
+        top: 32px; 
+        position: absolute; 
+        text-align: center; 
+        color: white; 
+        font-size: 42px; 
+        font-family: "RUSKOF LIGHT"; 
+        font-weight: 400; 
+        line-height: 46px; 
+        word-wrap: break-word;
+    }
+
+    .Place01 {
+        width: 400px;
+        height: 650px; 
+        left: 20px; 
+        top: 178px; 
+        position: absolute; 
+        border-radius: 15px; 
+        overflow: hidden; 
+        border: 1px #D1DBE4 solid;
+
+        .Image1 {
+            width: 400px; 
+            height: 453px; 
+            left: 0px; 
+            top: 0px;
+            position: absolute;
+        }
+
+        .Place1Text1 {
+            width: 293.14px; 
+            height: 30px; 
+            left: 21px; 
+            top: 426px; 
+            position: absolute; 
+            color: white; 
+            font-size: 28px; 
+            font-family: "RUSKOF LIGHT"; 
+            font-weight: 400; 
+            line-height: 30px; 
+            word-wrap: break-word;
+        }
+        .Place1Text2 {
+            width: 361px; 
+            height: 65px; 
+            left: 21px; 
+            top: 491px; 
+            position: absolute; 
+            color: #E6E6E6; 
+            font-size: 18px; 
+            font-family: "Montserrat"; 
+            font-weight: 400; 
+            line-height: 22px; 
+            word-wrap: break-word;
+        }
+        
+
+        .LocationButton01 {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 6;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 0;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 35%;
+            will-change: transform;
+            position: absolute;
+            left: 30%;
+            top: 580px;
+        }
+    
+        .LocationButton01:disabled {
+            pointer-events: none;
+        }
+    
+        .LocationButton01:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .LocationButton01:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+        
+    }
+    .Place02 {
+        width: 400px;
+        height: 489px; 
+        left: 20px; 
+        top: 871px;
+        position: absolute; 
+        border-radius: 15px; 
+        overflow: hidden; 
+        border: 1px #D1DBE4 solid;
+
+        .Image2 {
+            width: 398px; 
+            height: 273px; 
+            left: 1px; 
+            top: 0px; 
+            position: absolute;
+        }
+
+        .Place2Text1 {
+            width: 293.14px; 
+            height: 30px; 
+            left: 21px; 
+            top: 240px; 
+            position: absolute; 
+            color: white; 
+            font-size: 28px; 
+            font-family: "RUSKOF LIGHT"; 
+            font-weight: 400; 
+            line-height: 30px; 
+            word-wrap: break-word;
+        }
+        .Place2Text2 {
+            width: 353px; 
+            height: 65px;
+            left: 21px; 
+            top: 310px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Montserrat"; 
+            font-weight: 400; 
+            line-height: 22px; 
+            word-wrap: break-word;
+        }
+        
+
+        .LocationButton02 {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 6;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 0;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 35%;
+            will-change: transform;
+            position: absolute;
+            left: 30%;
+            top: 420px;
+        }
+    
+        .LocationButton02:disabled {
+            pointer-events: none;
+        }
+    
+        .LocationButton02:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .LocationButton02:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+        
+    }
+    .Place03 {
+        width: 400px;
+        height: 488px; 
+        left: 460px; 
+        top: 178px; 
+        position: absolute; 
+        border-radius: 15px; 
+        overflow: hidden; 
+        border: 1px #D1DBE4 solid;
+
+        .Image3 {
+            width: 400px; 
+            height: 273px; 
+            left: 0px; 
+            top: 0px;
+            position: absolute;
+        }
+
+        .Place3Text1 {
+            width: 293.14px; 
+            height: 30px; 
+            left: 21px; 
+            top: 250px; 
+            position: absolute; 
+            color: white; 
+            font-size: 28px; 
+            font-family: "RUSKOF LIGHT"; 
+            font-weight: 400; 
+            line-height: 30px; 
+            word-wrap: break-word;
+        }
+        .Place3Text2 {
+            width: 361px; 
+            height: 65px; 
+            left: 21px; 
+            top: 325px; 
+            position: absolute; 
+            color: #E6E6E6; 
+            font-size: 18px; 
+            font-family: "Montserrat"; 
+            font-weight: 400; 
+            line-height: 22px; 
+            word-wrap: break-word;
+        }
+        
+
+        .LocationButton03 {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 6;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 0;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 35%;
+            will-change: transform;
+            position: absolute;
+            left: 30%;
+            top: 420px;
+        }
+    
+        .LocationButton03:disabled {
+            pointer-events: none;
+        }
+    
+        .LocationButton03:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .LocationButton03:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+        
+    }
+    .Place04 {
+        width: 400px;
+        height: 652px; 
+        left: 460px; 
+        top: 708px;
+        position: absolute; 
+        border-radius: 15px; 
+        overflow: hidden; 
+        border: 1px #D1DBE4 solid;
+
+        .Image4 {
+            width: 398px; 
+            height: 453px; 
+            left: 1px; 
+            top: 0px; 
+            position: absolute;
+        }
+
+        .Place4Text1 {
+            width: 293.14px; 
+            height: 30px; 
+            left: 21px; 
+            top: 420px; 
+            position: absolute; 
+            color: white; 
+            font-size: 28px; 
+            font-family: "RUSKOF LIGHT"; 
+            font-weight: 400; 
+            line-height: 30px; 
+            word-wrap: break-word;
+        }
+        .Place4Text2 {
+            width: 353px; 
+            height: 65px;
+            left: 21px; 
+            top: 490px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Montserrat"; 
+            font-weight: 400; 
+            line-height: 22px; 
+            word-wrap: break-word;
+        }
+        
+
+        .LocationButton04 {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 6;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 0;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 35%;
+            will-change: transform;
+            position: absolute;
+            left: 30%;
+            top: 583px;
+        }
+    
+        .LocationButton04:disabled {
+            pointer-events: none;
+        }
+    
+        .LocationButton04:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .LocationButton04:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+        
+    }
+    .Place05 {
+        width: 400px;
+        height: 650px; 
+        left: 900px; 
+        top: 178px; 
+        position: absolute; 
+        border-radius: 15px; 
+        overflow: hidden; 
+        border: 1px #D1DBE4 solid;
+
+        .Image5 {
+            width: 400px; 
+            height: 453px; 
+            left: 0px; 
+            top: 0px;
+            position: absolute;
+        }
+
+        .Place5Text1 {
+            width: 293.14px; 
+            height: 30px; 
+            left: 21px; 
+            top: 426px; 
+            position: absolute; 
+            color: white; 
+            font-size: 28px; 
+            font-family: "RUSKOF LIGHT"; 
+            font-weight: 400; 
+            line-height: 30px; 
+            word-wrap: break-word;
+        }
+        .Place5Text2 {
+            width: 361px; 
+            height: 65px; 
+            left: 21px; 
+            top: 501px; 
+            position: absolute; 
+            color: #E6E6E6; 
+            font-size: 18px; 
+            font-family: "Montserrat"; 
+            font-weight: 400; 
+            line-height: 22px; 
+            word-wrap: break-word;
+        }
+        
+
+        .LocationButton05 {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 6;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 0;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 35%;
+            will-change: transform;
+            position: absolute;
+            left: 30%;
+            top: 580px;
+        }
+    
+        .LocationButton05:disabled {
+            pointer-events: none;
+        }
+    
+        .LocationButton05:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .LocationButton05:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+        
+    }
+    .Place06 {
+        width: 400px;
+        height: 489px; 
+        left: 900px; 
+        top: 871px;
+        position: absolute; 
+        border-radius: 15px; 
+        overflow: hidden; 
+        border: 1px #D1DBE4 solid;
+
+        .Image6 {
+            width: 398px; 
+            height: 273px; 
+            left: 1px; 
+            top: 0px; 
+            position: absolute;
+        }
+
+        .Place6Text1 {
+            width: 293.14px; 
+            height: 30px; 
+            left: 21px; 
+            top: 240px; 
+            position: absolute; 
+            color: white; 
+            font-size: 28px; 
+            font-family: "RUSKOF LIGHT"; 
+            font-weight: 400; 
+            line-height: 30px; 
+            word-wrap: break-word;
+        }
+        .Place6Text2 {
+            width: 353px; 
+            height: 65px;
+            left: 21px; 
+            top: 310px; 
+            position: absolute; 
+            color: white; 
+            font-size: 18px; 
+            font-family: "Montserrat"; 
+            font-weight: 400; 
+            line-height: 22px; 
+            word-wrap: break-word;
+        }
+        
+
+        .LocationButton06 {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #ffffff;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Tusker Grotesk 6500 Medium",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 20px;
+            font-weight: 6;
+            line-height: normal;
+            margin: 0;
+            min-height: 50px;
+            min-width: 0;
+            outline: none;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 35%;
+            will-change: transform;
+            position: absolute;
+            left: 30%;
+            top: 420px;
+        }
+    
+        .LocationButton06:disabled {
+            pointer-events: none;
+        }
+    
+        .LocationButton06:hover {
+            color: #000000;
+            background-color: #ffffff;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+    
+        .LocationButton06:active {
+            box-shadow: none;
+            transform: translateY(0);
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+.Bottom {
+    width: 100%; 
+    height: 706px; 
+    left: 0px; 
+    top: 6200px; 
+    position: absolute;
+
+    .Bottombg {
+        width: 100%; 
+        height: 706px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute;
+    }
+
+    .Youtube {
+        width: 32px; 
+        height: 32px; 
+        left: 1780px; 
+        top: 659px; 
+        position: absolute;
+    }
+    .Twitter {
+        width: 32px; 
+        height: 32px; 
+        left: 1720px; 
+        top: 659px; 
+        position: absolute;
+    }
+    .Instagram {
+        width: 32px; 
+        height: 32px; 
+        left: 1660px; 
+        top: 659px; 
+        position: absolute;
+    }
+
+    .WentTo {
+        width: 150px; 
+        height: 34px; 
+        left: 1250px; 
+        top: 493px; 
+        position: absolute; 
+        color: black; 
+        font-size: 30px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .GoingTo {
+        width: 150px; 
+        height: 34px; 
+        left: 900px; 
+        top: 463px; 
+        position: absolute; 
+        color: black; 
+        font-size: 30px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Home {
+        width: 100px; 
+        height: 43px; 
+        left: 609px; 
+        top: 463px; 
+        position: absolute; 
+        color: black; 
+        font-size: 30px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 500; 
+        text-transform: uppercase; 
+        line-height: 20px; 
+        letter-spacing: 1.30px; 
+        word-wrap: break-word;
+    }
+    .Erica {
+        width: 213px; 
+        height: 91px; 
+        left: 883px; 
+        top: 230px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 70px; 
+        font-family: "Tusker Grotesk 6500 Medium"; 
+        font-weight: 700; 
+        line-height: 25px; 
+        word-wrap: break-word;
+    }
+}
+
+/* Designed by Jawad Alarman */
